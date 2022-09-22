@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Profit or loss calculator</title>
+
+    <link href="src/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <h1>Profit or loss calculator</h1>
+      <ul class="navbar-ul">
+        <li class="navbar-item">
+          <a
+            class="navbar-link active"
+            href="https://github.com/shanolhere"
+            target="_blank"
+            >Github link</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Profit or loss calculator for your stocks</h2>
+      <div class="container">
+        <input
+          type="number"
+          min="1"
+          class="costPrice"
+          placeholder="Enter cost price"
+          required
+        />
+        <input
+          type="number"
+          min="1"
+          class="quantity"
+          placeholder="Enter quantity of stocks"
+          required
+        />
+        <input
+          type="number"
+          min="1"
+          class="sellingPrice"
+          placeholder="Enter selling price"
+          required
+        />
+        <button class="check">Check</button>
+      </div>
+
+      <div class="result">
+        <p class="message">Message goes here...</p>
+        <img class="animated-gif" src="src/assets/happy.gif" />
+      </div>
+    </main>
+    <footer>
+      <h2>Connect with me</h2>
+      <p>Connecting with people is what I like the most.</p>
+      <ul class="social-links">
+        <li class="social-linkItem">
+          <a href="https://twitter.com/nerd_fswd"
+            ><ion-icon name="logo-twitter"></ion-icon
+          ></a>
+        </li>
+        <li class="social-linkItem">
+          <a href="https://instagram.com/sabiya.ig"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+        </li>
+        <li class="social-linkItem">
+          <a href="https://www.linkedin.com/in/sabiya-tabassum-95ba87244/"
+            ><ion-icon name="logo-linkedin"></ion-icon
+          ></a>
+        </li>
+        <li class="social-linkItem">
+          <a href="mailto: sabiyatabassum99@gmail.com"
+            ><ion-icon name="mail-outline"></ion-icon
+          ></a>
+        </li>
+        <li class="social-linkItem">
+          <a href="https://github.com/shanolhere"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
