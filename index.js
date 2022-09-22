@@ -26,8 +26,12 @@ checkBtn.addEventListener("click", () => {
     let loss =
       (Number(costPrice.value) - Number(sellingPrice.value)) *
       Number(quantity.value);
-    let profitPercent = (profit * 100) / Number(costPrice.value);
-    let lossPercent = (loss * 100) / Number(costPrice.value);
+      let profitPercent =
+        ((Number(sellingPrice.value) - Number(costPrice.value)) * 100) /
+        Number(costPrice.value);
+      let lossPercent =
+        ((Number(costPrice.value) - Number(sellingPrice.value)) * 100) /
+        Number(costPrice.value);
 
     if (Number(sellingPrice.value) > Number(costPrice.value)) {
       //console.log(typeof sellingPrice.value,costPrice.value)

@@ -109,7 +109,16 @@ button:hover{
 button:active{
   transform: scale(0.9);
 }
-
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+label {
+  font-weight: bold;
+}
 
 footer{
   /* position:absolute;

@@ -14,7 +14,7 @@
     ></script>
     <title>Profit or loss calculator</title>
 
-    <link href="src/styles.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <nav>
@@ -33,27 +33,36 @@
     <main>
       <h2>Profit or loss calculator for your stocks</h2>
       <div class="container">
-        <input
-          type="number"
-          min="1"
-          class="costPrice"
-          placeholder="Enter cost price"
-          required
-        />
-        <input
-          type="number"
-          min="1"
-          class="quantity"
-          placeholder="Enter quantity of stocks"
-          required
-        />
-        <input
-          type="number"
-          min="1"
-          class="sellingPrice"
-          placeholder="Enter selling price"
-          required
-        />
+        <div class="data">
+          <label>Cost Price :</label>
+          <input
+            type="number"
+            min="1"
+            class="costPrice"
+            placeholder="Enter cost price"
+            required
+          />
+        </div>
+        <div class="data">
+          <label>Stock Quantity :</label>
+          <input
+            type="number"
+            min="1"
+            class="quantity"
+            placeholder="Enter quantity of stocks"
+            required
+          />
+        </div>
+        <div class="data">
+          <label>Selling Price :</label>
+          <input
+            type="number"
+            min="1"
+            class="sellingPrice"
+            placeholder="Enter selling price"
+            required
+          />
+        </div>
         <button class="check">Check</button>
       </div>
 
@@ -67,32 +76,32 @@
       <p>Connecting with people is what I like the most.</p>
       <ul class="social-links">
         <li class="social-linkItem">
-          <a href="https://twitter.com/nerd_fswd"
+          <a href="https://twitter.com/nerd_fswd" target="_blank"
             ><ion-icon name="logo-twitter"></ion-icon
           ></a>
         </li>
         <li class="social-linkItem">
-          <a href="https://instagram.com/sabiya.ig"
+          <a href="https://instagram.com/sabiya.ig" target="_blank"
             ><ion-icon name="logo-instagram"></ion-icon
           ></a>
         </li>
         <li class="social-linkItem">
-          <a href="https://www.linkedin.com/in/sabiya-tabassum-95ba87244/"
+          <a href="https://www.linkedin.com/in/sabiya-tabassum-95ba87244/" target="_blank"
             ><ion-icon name="logo-linkedin"></ion-icon
           ></a>
         </li>
         <li class="social-linkItem">
-          <a href="mailto: sabiyatabassum99@gmail.com"
+          <a href="mailto: sabiyatabassum99@gmail.com" target="_blank"
             ><ion-icon name="mail-outline"></ion-icon
           ></a>
         </li>
         <li class="social-linkItem">
-          <a href="https://github.com/shanolhere"
+          <a href="https://github.com/shanolhere" target="_blank"
             ><ion-icon name="logo-github"></ion-icon
           ></a>
         </li>
       </ul>
     </footer>
-    <script src="src/index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
